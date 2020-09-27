@@ -3,7 +3,8 @@
 # TASK 1: THE POWER METHOD
 I implemented the ```WebGraph.power_method``` function in ```pagerank.py``` for computing the pagerank vector.
 
-Part 1: I ran the program on the ```small.csv.gz``` graph which is the example graph from the Deeper Inside Pagerank paper. For my implementation, I get the following output.
+# Part 1
+I ran the program on the ```small.csv.gz``` graph which is the example graph from the Deeper Inside Pagerank paper. For my implementation, I get the following output.
 ```
 $ python3 pagerank.py --data=./small.csv.gz --verbose
 DEBUG:root:computing indices
