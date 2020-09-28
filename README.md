@@ -142,7 +142,7 @@ INFO:root:rank=8 pagerank=1.0863e+00 url=www.lawfareblog.com/water-wars-us-china
 INFO:root:rank=9 pagerank=1.0863e+00 url=www.lawfareblog.com/water-wars-sinking-feeling-philippine-china-relations
 ```
 
-#Task 2: THE PERSONALIZATION VECTOR
+# Task 2: THE PERSONALIZATION VECTOR
 
 **Part 1**: I implemented the ```WebGraph.make_personalization_vector``` function which enables the ```--personalization_vector_query``` command line argument. This provides an alternative method for searching by filtering by the personalization vector. Using this, I got the results:
 
