@@ -225,7 +225,7 @@ INFO:root:rank=9 pagerank=1.6629e-01 url=www.lawfareblog.com/announcing-huawei-5
 Modify the pagerank.py file so that it also searches for the keywords in the query and the 5 most similar words
 
 ```
-$ python3 pagerank_2.py --data=./lawfareblog.csv.gz --search_query='weapons'
+$ python3 pagerank2.py --data=./lawfareblog.csv.gz --search_query='weapons'
 INFO:root:rank=0 pagerank=0.004571518860757351 url=www.lawfareblog.com/why-did-you-wait-moral-emptiness-and-drone-strikes
 INFO:root:rank=1 pagerank=0.0031107424292713404 url=www.lawfareblog.com/dc-district-court-dismisses-journalists-drone-lawsuit
 INFO:root:rank=2 pagerank=0.0020231129601597786 url=www.lawfareblog.com/revived-cia-drone-strike-program-comments-new-policy
