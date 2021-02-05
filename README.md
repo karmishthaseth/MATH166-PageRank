@@ -222,6 +222,7 @@ INFO:root:rank=8 pagerank=1.6897e-01 url=www.lawfareblog.com/whats-house-resolut
 INFO:root:rank=9 pagerank=1.6629e-01 url=www.lawfareblog.com/announcing-huawei-5g-and-national-security-lawfare-compilation-new-lawfare-e-book
 ```
 # Word2vec_coding Updated PageRank Task 1
+Modify the pagerank.py file so that it also searches for the keywords in the query and the 5 most similar words
 
 ```
 $ python3 pagerank_2.py --data=./lawfareblog.csv.gz --search_query='weapons'
